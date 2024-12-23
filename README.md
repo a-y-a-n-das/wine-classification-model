@@ -81,9 +81,16 @@ The model performs exceptionally well, achieving an accuracy of **98%**.
 - Scikit-learn
 - Matplotlib
 - NumPy
-- imbalanced-learn (for SMOTE and handling class imbalance)
 
-You can install the necessary dependencies by running:
+## Conclusion
 
-```bash
-pip install -r requirements.txt
+The project demonstrates the effectiveness of using chemical properties of wine to predict the wine class. After preprocessing the dataset and removing redundant features, the model achieved an accuracy of **98%**. The model's performance was evaluated using various metrics, with excellent results in precision, recall, and F1-score across all classes. This indicates that the classifier is highly capable of predicting the wine class based on the selected features.
+
+Future work could explore different feature engineering techniques, alternative classifiers, or hyperparameter tuning to further improve the model's performance.
+
+## Acknowledgements
+
+Dataset source: [Wine Dataset - UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/109/wine)
+
+Special thanks to the creators and maintainers of the UCI Machine Learning Repository for providing access to this valuable dataset.
+
