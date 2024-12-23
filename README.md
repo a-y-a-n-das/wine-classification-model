@@ -2,6 +2,11 @@
 
 This project involves training a classification model to predict the type of wine based on several chemical properties. The dataset contains various features related to the chemical composition of wines, such as alcohol content, ash content, and phenols, which are used to predict the class of the wine.
 
+## Model Description
+
+The classification model used in this project is the **K-Nearest Neighbors (KNN)** algorithm, implemented using **scikit-learn**. KNN is a simple, yet effective, machine learning algorithm that classifies data points based on the majority class among their nearest neighbors. The model was trained using the processed wine dataset, and hyperparameters such as the number of neighbors (`k`) were optimized for better performance.
+
+
 ## Dataset
 
 The dataset used in this project is from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/109/wine). The dataset contains **178 rows** and **13 attributes** including the wine’s chemical composition and its corresponding class.
