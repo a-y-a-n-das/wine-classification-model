@@ -12,7 +12,9 @@ The classification model used in this project is the **K-Nearest Neighbors (KNN)
 The dataset used in this project is from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/109/wine). The dataset contains **178 rows** and **13 attributes** including the wine’s chemical composition and its corresponding class.
 
 **Features (Attributes):**
+- Class
 - Alcohol
+- Malicacid
 - Ash
 - Alcalinity_of_ash
 - Magnesium
@@ -36,30 +38,13 @@ You can access the dataset [here](https://archive.ics.uci.edu/dataset/109/wine).
 
 This project aimed to build a machine-learning model that can classify wines into three classes based on their chemical properties.
 
-### Preprocessing and Feature Selection
-
-Initially, we had the following features in the dataset:
-- Alcohol
-- Ash
-- Color_intensity
-- Flavanoids
-- Hue
-- Malicacid
-- Proanthocyanins
-- Class
-- Diluted_wines
-
 However, after performing exploratory data analysis (EDA), it was observed that many of these features had overlapping distributions across classes (as seen in the histograms). As a result, we decided to drop the following features to avoid redundancy and improve the model’s performance:
 
-- **Alcohol**
-- **Ash**
 - **Color_intensity**
-- **Flavanoids**
 - **Hue**
-- **Malicacid**
+- **Nonflavanoid_phenols**
 - **Proanthocyanins**
-- **Class**
-- **Diluted_wines**
+- **Proline**
 
 ### Model Evaluation
 
